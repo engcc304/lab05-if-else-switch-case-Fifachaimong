@@ -55,8 +55,8 @@ int main() {
        printf("D+ !") ;
     }else if(score >= 50) {
        printf("D !") ;
-    }else if (score < 50) {
-       printf("F !") ;
+    }else if (!score){
+       printf("please enter number only.") ;
     }else {
        printf("F !") ;
     }
